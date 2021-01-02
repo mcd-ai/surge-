@@ -1,6 +1,9 @@
 #!name=定时任务
 #!desc=签到、提醒等定时任务  
 
+[MITM]
+hostname = api.m.jd.com, mp.weixin.qq.com, *.amemv.com, ms.jr.jd.com, draw.jdfcloud.com, jdjoy.jd.com
+
 [Script]
 京东比价 = type=http-response,pattern=^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,script-update-interval=0
 # 京东签到
@@ -71,7 +74,3 @@
 # 中青看点
 中青看点 = type=cron,cronexp=35 5 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
 中青看点 = type=cron,cronexp=*/21 * * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js,script-update-interval=0
-
-
-[MITM]
-hostname = api.m.jd.com, mp.weixin.qq.com, *.amemv.com, ms.jr.jd.com, draw.jdfcloud.com, jdjoy.jd.com

@@ -12,7 +12,7 @@ Some Functions Modified From https://github.com/Zero-S1/JD_tools/blob/master/JD_
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 // QuantumultX
 [task_local]
-#东东超市
+#东东超
 11 1-23/5 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_superMarket.js, tag=东东超市, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jxc.png, enabled=true
 // Loon
 [Script]

@@ -6,7 +6,7 @@
 ****/
 // quantumultx
 // [task_local]
-// #京东宠汪汪喂食
+// #京东宠汪汪喂
 // 15 */1 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js, tag=京东宠汪汪喂食, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true
 // Loon
 // [Script]

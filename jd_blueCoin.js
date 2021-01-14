@@ -1,6 +1,6 @@
 /*
 京小超兑换奖品 脚本地址：https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js
-感谢@yangtingxiao提供PR1
+感谢@yangtingxiao提供PR
 更新时间：2020-12-24
 支持京东多个账号
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js

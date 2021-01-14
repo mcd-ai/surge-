@@ -8,7 +8,7 @@
 脚本兼容: Quantumult X, Surge, Loon, JSBox, Node.js
 // Quantumult X
 [task_local]
-#宠汪汪积分兑换奖品
+#宠汪汪积分兑奖
 0 0-16/8 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js, tag=宠汪汪积分兑换奖品, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdcww.png, enabled=true
 // Loon
 [Script]

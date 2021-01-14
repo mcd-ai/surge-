@@ -12,7 +12,7 @@
 脚本兼容: QuantumultX, Surge, Loon, 小火箭，JSBox, Node.js
 ============Quantumultx===============
 [task_local]
-#十元街
+#十元街1
 10 7 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_syj.js, tag=十元街, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_syj.png, enabled=true
 
 ================Loon==============

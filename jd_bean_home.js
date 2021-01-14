@@ -1,5 +1,5 @@
 /*
-领京豆额外奖励&抢京豆1
+领京豆额外奖励&抢京豆
 脚本自带助力码，介意者可将 29行 helpAuthor 变量设置为 false
 入口：首页-领京豆
 更新地址：https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js

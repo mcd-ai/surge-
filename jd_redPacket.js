@@ -17,7 +17,7 @@
 脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
 QuantumultX
 [task_local]
-#京东全民开红包
+#京东全民开红
 1 1 * * * https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jd_redPacket.png, enabled=true
 Loon
 [Script]

@@ -1,7 +1,7 @@
 /*
  * @Author: shylocks https://github.com/shylocks
  * @Date: 2021-01-13 13:27:41
- * @Last Modified by:   shylocks1
+ * @Last Modified by:   shylocks
  * @Last Modified time: 2021-01-13 13:27:41
 
 const $ = new Env('京东家庭号');

@@ -136,30 +136,7 @@ async function getToken() {
       //}
       $.setdata(LKYLToken, 'jdJoyRunToken');
 
-      $.msg($.name, '获取Token: 成功🎉', ``);
 
-      // $.done({ body: JSON.stringify(body) })
-      $.done({ url: url })
-    }
-  } else {
-    $.done()
-  }
-}
-function readToken() {
-  return new Promise(resolve => {
-    $.get({url: `http://api.turinglabs.net/api/v1/jd/joy/read/1/`, 'timeout': 10000}, (err, resp, data) => {
-      try {
-        if (err) {
-          console.log(`${JSON.stringify(err)}`)
-          console.log(`${$.name} API请求失败，请检查网路重试`)
-        } else {
-          if (data) {
-            console.log(data)
-            data = JSON.parse(data);
-          }
-        }
-      } catch (e) {
-        $.logErr(e, resp)
       } finally {
         resolve(data);
       }

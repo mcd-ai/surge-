@@ -15,8 +15,7 @@ Modified time: 2021-06-9 15:25:41
 cron "2 9 * * *" script-path=jd_bean_change.js, tag=京东资产变动通知
 =============Surge===========
 [Script]
-京东资产变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=3600,script-path=jd_bean_change.js
-
+京东资产变动通知 = type=cron,cronexp="2 9 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/mcd-ai/surge-/main/jd_bean_change.js
 ============小火箭=========
 京东资产变动通知 = type=cron,script-path=jd_bean_change.js, cronexpr="2 9 * * *", timeout=3600, enable=true
  */

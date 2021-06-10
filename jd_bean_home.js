@@ -15,8 +15,7 @@
 cron "10 7 * * *" script-path=jd_bean_home.js, tag=领京豆额外奖励
 
 ===============Surge=================
-领京豆额外奖励 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=jd_bean_home.js
-
+领京豆额外奖励 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/mcd-ai/surge-/main/jd_bean_home.js
 ============小火箭=========
 领京豆额外奖励 = type=cron,script-path=jd_bean_home.js, cronexpr="10 7 * * *", timeout=3600, enable=true
  */

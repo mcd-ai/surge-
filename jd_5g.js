@@ -15,7 +15,7 @@
 cron "0 0,6,12,18 * * *" script-path=jd_5g.js, tag=5G狂欢城
 
 ===============Surge=================
-5G狂欢城 = type=cron,cronexp="0 0,6,12,18 * * *",wake-system=1,timeout=3600,script-path=jd_5g.js
+5G狂欢城 = type=cron,cronexp="0 0,6,12,18 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/mcd-ai/surge-/main/jd_5g.js
 
 ============小火箭=========
 5G狂欢城 = type=cron,script-path=jd_5g.js, cronexpr="0 0,6,12,18 * * *", timeout=3600, enable=true

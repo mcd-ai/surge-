@@ -15,7 +15,7 @@
 cron "0 0 0 * * *" script-path=jd_blueCoin.js,tag=东东超市兑换奖品
 
 ===================Surge==================
-东东超市兑换奖品 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=3600,script-path=https://github.com/mcd-ai/surge-/edit/main/jd_blueCoin.js
+东东超市兑换奖品 = type=cron,cronexp="0 0 0 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/mcd-ai/surge-/main/jd_blueCoin.js
 
 ============小火箭=========
 东东超市兑换奖品 = type=cron,script-path=jd_blueCoin.js, cronexpr="0 0 0 * * *", timeout=3600, enable=true
